@@ -39,6 +39,7 @@ CREATE TABLE IF NOT EXISTS work_site (
     user_id INT,
     host_user_id INT,
     xp_given INT,
+    starting_date DATE,
     PRIMARY KEY (id, address_id, host_user_id)
 );
 
